@@ -1,0 +1,83 @@
+:root {
+    --bs-link-color: rgb(155, 152, 152);
+}
+
+/* .sfondoPrincipale {
+    background-color:var(--bs-gray-400);
+} */
+.sfondoPrincipale {
+    background-color: black;
+}
+
+
+/* .nav{
+    position:fixed;
+} */
+.navbar-brand img {
+    width: 70px;
+    /* height: 72px; */
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.tab-pane {
+    height: 150px;
+    overflow: auto;
+}
+
+#residenza {
+    -ms-flex-align: center;
+}
+
+#piano {
+    width: 70%;
+}
+
+.h2 {
+    color: aquamarine;
+}
+
+p {
+    text-align: justify;
+  }
+
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #91e7e3;
+    --bs-nav-link-hover-color: #91e7e3;
+    --bs-nav-link-disabled-color: #3d8a86;
+    color: aquamarine;
+
+}
+
+/* .language-selection {
+    background-color: #88718a;
+    text-decoration-color: aquamarine;
+  } */
+
+.custom-btn {
+    background-color: gray !important;
+    color: white !important;
+}
+
+select[name="lingua"] {
+    background-color: gray;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.language-selection {
+    text-align: center;
+    display: flex;
+}
+
+.language-selection label {
+    display: block;
+    margin-bottom: 5px;
+}
